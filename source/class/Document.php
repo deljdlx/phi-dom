@@ -44,7 +44,7 @@ class Document extends \DOMDocument
     }
 
 
-    protected function replaceNodeWithNodes($containerNode, $nodes)
+    public function replaceNodeWithNodes($containerNode, $nodes)
     {
 
 
@@ -86,7 +86,7 @@ class Document extends \DOMDocument
     }
 
 
-    protected function replaceNodeWithNode($containerNode, $node)
+    public function replaceNodeWithNode($containerNode, $node)
     {
 
         $newValueNode = $node->cloneNode(true);
