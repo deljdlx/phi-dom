@@ -1,0 +1,24 @@
+{
+	"name": "phi-dom",
+	"description": "Phi DOM",
+	"repositories": [
+	],
+	"require":
+	{
+
+	},
+	"require-dev": {
+	},
+	"config": {
+		"process-timeout": 600
+	},
+	"autoload": {
+		"psr-4": {
+			"Phi\\DOM\\": "source/class"
+		},
+		"files": [
+		]
+	}
+}
+
+
